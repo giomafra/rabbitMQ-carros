@@ -79,8 +79,8 @@ python -m pip install pika
 python consumer/consumer.py
 ```
 
-## Como verificar o consumidor
-Nao ha endpoint GET HTTP no consumidor. A verificacao e feita pelo terminal do script `consumer.py`.
+## Como verificar o consumidor (GET no Python)
+A verificacao e feita pelo script `consumer.py`, que consome as mensagens da fila (equivalente ao GET do consumidor).
 
 Exemplo de saida esperada ao publicar um carro:
 
